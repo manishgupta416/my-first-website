@@ -139,6 +139,23 @@ footer ul{
 /* projects */
 
 .margin-md{
-    margin: 4rem 0rem;
+    margin: 3rem;
+    border: 2px solid white;
+    padding: 22px 12px;
+    border-radius: 20px;
+    text-align: center;
+}
 
+li{
+    list-style-type: none;
+}
+
+.proj-margin{
+    
+    margin: 26px;
+
+}
+
+.proj-link{
+   margin:  31px 10px;
 }
