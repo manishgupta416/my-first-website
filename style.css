@@ -4,7 +4,7 @@
     --primary-color: #ff6347;
     --secondary-color: #ffffff;
     --off-white :#F3F4F6;
-    --dark-gray:#cccfd3
+    --dark-gray:#f2f2f2
 }
 
 hr{
@@ -13,7 +13,7 @@ hr{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin: 0px 50px;
     padding: 0;
 }
 
@@ -31,6 +31,13 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
    
+}
+
+.link:hover{
+    background-color: #2f2e41;
+    /* color: #2f2e41; */
+    color: white;
+    border-radius: 20px;
 }
 
 
@@ -109,11 +116,14 @@ body{
 }
 
 .section{
+   
     padding: 2rem;
-    border: 2px solid;
+    border: 2px solid white;
     border-radius: 20px;
     padding: 2rem;
-    margin: 15px;
+    margin: 13px auto;
+    text-align: center;
+
 }
 
 .section h1{
@@ -123,17 +133,18 @@ body{
 
 .ow{
     background-color: var(--dark-gray);
+    margin-bottom: 24px;
 }
 
 footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem;
     text-align: center;
     color: var(--secondary-color);
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
-
 }
+
 
 footer .link {
     color: var(--secondary-color);
@@ -146,12 +157,14 @@ footer ul{
 /* projects */
 
 .margin-md{
-    margin: 3rem;
+    margin: 10px 84px;
     border: 2px solid white;
     padding: 22px 12px;
     border-radius: 20px;
     text-align: center;
+    margin-bottom: 15px;
 }
+
 
 li{
     list-style-type: none;
