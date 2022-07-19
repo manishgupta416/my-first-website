@@ -4,7 +4,7 @@
     --primary-color: #ff6347;
     --secondary-color: #ffffff;
     --off-white :#F3F4F6;
-    --dark-gray:#f2f2f2
+    --dark-gray:#f2f2f2;
 }
 
 hr{
@@ -13,8 +13,10 @@ hr{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0px 50px;
+    margin: 0px auto;
+    max-width: 86%;
     padding: 0;
+
 }
 
 .container{
@@ -67,12 +69,9 @@ body{
 .navigation {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    padding: 0.5rem;
     border-bottom-left-radius: 1rem;
-    padding: 0.8rem;
-    border-bottom-right-radius: 1rem;
-
-    
-      
+   border-bottom-right-radius: 1rem;       
 }
 
 .navigation .nav-pills{
@@ -95,12 +94,11 @@ body{
  
 .hero{
     padding: 2rem;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .hero .hero-img {
-    max-width: 400px;
+    max-width: 50%;
     display: block;
     margin: auto;
     text-align: center;
@@ -115,20 +113,17 @@ body{
     color: #2f2e41;
 }
 
-.section{
-   
+.section{  
     padding: 2rem;
     border: 2px solid white;
     border-radius: 20px;
     padding: 2rem;
     margin: 13px auto;
     text-align: center;
-
 }
 
 .section h1{
-    text-align: center;
-   
+    text-align: center;   
 }
 
 .ow{
@@ -157,7 +152,7 @@ footer ul{
 /* projects */
 
 .margin-md{
-    margin: 10px 84px;
+    /* margin: 10px 84px; */
     border: 2px solid white;
     padding: 22px 12px;
     border-radius: 20px;
@@ -170,12 +165,34 @@ li{
     list-style-type: none;
 }
 
-.proj-margin{
-    
+.proj-margin{  
     margin: 26px;
-
 }
 
 .proj-link{
    margin:  31px 10px;
 }
+
+ol{
+    padding-inline-start: 0px;
+}
+
+@media screen and (max-width:400px ){
+    .proj-link {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }  
+}
+
+@media screen and (max-width:270px ){
+    h1{
+        font-size: medium;
+    }
+
+    .link{
+        padding: 0;
+    }
+}
+
